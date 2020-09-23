@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Blazer</title>
+	<link rel="stylesheet" type="text/css" href="../css/men2_3.css">
+	<link rel="stylesheet" type="text/css" href="../css/all.css">
+</head>
+<body>
+
+		<div class="topBar">
+		<div class="leftstr">
+		<i class="fa fa-phone" aria-hidden="true"></i>
+		Call +01234567890</div>
+		<div id="account" class="account">
+		<a href="registration.html"><i class="fa fa-user-circle" aria-hidden="true"></i>
+		Sign in
+		</a>
+		</div>	
+	</div>
+
+	<div class="navigationBar">
+		<div class="home">
+			<a href="main.html">
+				Home
+			</a>
+		</div>
+		<img src="../img/logo.jpg" class="logo">
+		<div class="categories">
+			<a href="main.html#men">Categories <i class="fa fa-bars" aria-hidden="true"></i></a>
+		</div>
+	</div>
+
+<div class="description">
+	<div class="product_image">
+		<img src="../img/men2_3.jpg" width="90%">
+	</div>
+	<div class="collum">
+	<div class="product_name">
+		Blazer
+	</div>
+	<div class="product_cost">
+		100$
+	</div>
+	<a href="" class="buy_button">
+		<div>
+		Buy
+		</div>
+	</a>
+</div>
+</div>
+
+<div class="more_description" >
+<div class="rating-area hidden" id="rating">
+		<input class="rating" type="radio" id="star-5" name="rating" value="5">
+		<label for="star-5" title="Оценка «5»"></label>	
+		<input class="rating" type="radio" id="star-4" name="rating" value="4">
+		<label for="star-4" title="Оценка «4»"></label>    
+		<input class="rating" type="radio" id="star-3" name="rating" value="3">
+		<label for="star-3" title="Оценка «3»"></label>  
+		<input class="rating" type="radio" id="star-2" name="rating" value="2">
+		<label for="star-2" title="Оценка «2»"></label>    
+		<input class="rating" type="radio" id="star-1" name="rating" value="1">
+		<label for="star-1" title="Оценка «1»"></label>
+	</div>
+	<div class="description_text">
+		<p>Description:</p>
+		Мужской повседневный пиджак, приталенный хлопковый пиджак в Корейском стиле с длинными рукавами и пуговицами, лидер продаж.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor, dolor sit amet semper suscipit, ipsum nulla dignissim orci, ac efficitur turpis enim eu diam. Duis lobortis tempus pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam vehicula, nulla commodo dictum suscipit, metus arcu luctus nulla, sed gravida orci elit et enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean porttitor volutpat velit a ultrices. Morbi sodales lectus id nulla bibendum tincidunt sed quis dui. Cras hendrerit feugiat ligula, non ullamcorper ipsum tristique quis.
+
+		Ut ut risus ac odio dignissim vestibulum. Ut auctor neque eu tristique auctor. Ut sit amet mauris a nisl finibus iaculis. Fusce lobortis massa purus, vel mattis ipsum feugiat vitae. Suspendisse pulvinar nisi id tellus volutpat venenatis at nec elit. Morbi eu porttitor mi. Duis cursus justo ut magna laoreet placerat. Quisque urna tortor, aliquam eu dolor vitae, pharetra suscipit arcu. Nulla facilisi.
+
+		Vivamus egestas, nisi id varius sollicitudin, nunc lectus gravida lectus, vitae egestas enim turpis vitae quam. Praesent laoreet tempus auctor. Cras porttitor consectetur nulla quis ornare. Morbi quis nisi nunc. Proin risus est, placerat ac varius sit amet, venenatis sed urna. Duis porta ipsum et metus efficitur, at eleifend arcu iaculis. Nulla id pellentesque odio. Donec luctus porttitor sapien. Etiam varius, nunc nec gravida scelerisque, libero dolor convallis ex, eget commodo lorem tortor quis quam. Praesent quis nulla a eros rutrum efficitur. Donec id justo eleifend, vestibulum ligula id, egestas mauris. Praesent in diam feugiat dolor condimentum porttitor. Integer at felis tincidunt purus pellentesque tempor quis id elit. Vivamus eget feugiat mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec bibendum tempor vestibulum.
+	</div>
+	<div class="sizes">
+		<img src="../img/sizes.jpg">
+	</div>
+	<div class="comment">
+		<p>Comments:</p>
+		<div class="hidden" id="can_comment">
+		<textarea id="comment" type="text" name="comment" placeholder="Comment"></textarea>
+		<input type="submit" name="" id="submit">
+		</div>
+	</div>
+	<div id="comments_by_users">
+		<p>
+			<div class="rating-mini">
+			<span class="active"></span>	
+			<span class="active"></span>    
+			<span></span>  
+			<span></span>    
+			<span></span>
+			</div>
+			<br>
+		Этот пиджак не стоит этих денег
+		</p>
+		<p>
+			<div class="rating-mini">
+			<span class="active"></span>	
+			<span class="active"></span>    
+			<span class="active"></span>  
+			<span class="active"></span>    
+			<span></span>
+			</div>
+			<br>
+		Хороший пиджак
+		</p>
+	</div>
+</div>
+<script type="text/javascript" src="../scripts/script.js"></script>
+<script type="text/javascript">
+	if(sessionStorage.getItem('key')=='1')
+	{
+	document.getElementById("account").classList.add("hidden");
+	document.getElementById("rating").classList.remove("hidden");
+	document.getElementById("can_comment").classList.remove("hidden");
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+﻿body{
+	padding: 0;
+	margin: 0;
+	background: url(../img/bg-01.jpg) no-repeat center top;
+	width: 100%;
+	background-size: cover;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+
+}
+
+.flexContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.whiteBox{
+	background-color: white;
+	width: 500px;
+	height: 600px;
+	border-radius: 25px;
+}
+
+.signInWith{
+	width: 100%;
+	height: 10%;
+	text-align:center;
+	font-size: xx-large;
+	padding-top: 5%;
+}
+
+.buttons{
+	padding-top: 8%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.googleButton{
+	background-color: white;
+  	text-align: center;
+  	font-size: x-large;
+  	width: 50%;
+  	line-height: 50px;
+  	margin-left: 10%;
+  	border-radius: 25px;
+  	border-style: solid;
+  	border-width: 1px;
+  	margin-right: 1%;
+}
+
+.icon{
+	margin-top: 3%;
+	margin-bottom: -2%;
+}
+
+.instagramButton{
+	background-color: white;
+	text-align:center;
+	font-size: x-large;
+	width: 50%;
+	line-height: 50px;
+	margin-right:  10%;
+	border-radius: 25px;
+	margin-left: 1%;
+	border-color:rgb(208,38,249);
+	border-width: 1px;
+	border-style: solid;
+}
+
+.user{
+	text-align:left;
+	margin-left: 10%;
+	margin-top: 10%;
+	font-size: x-large;
+}
+
+.userName{
+	width: 87%;
+	padding-top: 3%;
+	margin-right: 1%;
+  	border: 1px solid #ccc;
+  	border-radius: 10px;
+  	font-size: medium;
+}
+
+.sumbitButton{
+
+	background-color: #333333;
+	color: white;
+	text-align:center;
+	display: inline-block;
+	font-size: x-large;
+	width: 100%;
+	line-height: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 15px;
+}
+
+.signUp{
+	font-size: medium;
+	text-decoration:underline;
+	margin-top: 15%;
+}
+
+..hidden{
+	display: none;
+}
